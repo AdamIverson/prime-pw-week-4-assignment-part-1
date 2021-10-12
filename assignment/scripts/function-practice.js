@@ -88,7 +88,12 @@ let superValue = array[i];
 // 8. Function to check if a letter is the first letter in a
 //    string. Return true if it is, and false otherwise
 function isFirstLetter(letter, string) {
+  let i = 0;
+  let stringTwo = string[0];
 
+  if (letter === stringTwo ) {
+    return true;
+  } return false;
 }
 console.log( 'isFirstLetter - should say true', isFirstLetter('a', 'apple') );
 console.log( 'isFirstLetter - should say false', isFirstLetter('z', 'apple') );
