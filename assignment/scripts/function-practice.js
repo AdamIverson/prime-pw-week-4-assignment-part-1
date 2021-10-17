@@ -86,6 +86,7 @@ let superValue = array[i];
 
  console.log(find(75, myArray));
  console.log(find(75, yourArray));
+ find(15, myArray);
 // ----------------------
 // Stretch Goals
 // ----------------------
